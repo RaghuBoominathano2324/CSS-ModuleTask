@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: ; */
+  
+}
+
+
+.mainMidDiv{
+  display: flex;
+}
+
+.leftMidDiv{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+.iconAndOthers button:hover,.icon:hover{
+  background-color: antiquewhite;
+} */
+
+
+.dashboardlis li:hover,.button:hover{
+  background-color: aquamarine;
+}
+.SkillsAndSettings{
+  display: flex;
+  justify-content: space-around;
+}
+.HeadingSection i:hover,button:hover {
+  transform: scale(1.2);
+
+}
+
+
+
+
+.HeadingSection text:hover{
+ 
+}
+
+.Continer{
+background-image: url("./CssBackGround.png");
+width: 80%;
+height: 280px;
+border-radius: 2%;
+}
+.ContinerHeading{
+  display: flex;
+   color: silver;
+   opacity: 0.8;
+}
+.ContinerClasses{
+  display: flex;
+
+
+  
+}
+
+
+
+
+.ContinerClasses>div{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border: solid 1px white;
+  width: 210px;
+  
+border-radius: 4%;
+
+  background-color: white;
+  
+}
+
+.HTML:hover,.CSS:hover,.JavaScript:hover{
+  transform: scale(1.2);
+}
+
+.ContinerHeading li:hover{
+  background-color: aqua;
+  color: brown;
+  transform: scale(1.2);
+  opacity: 0.8px;
+}
